@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAFÉ ROOTS</title>
+    <link rel="icon" href="IMAGENES/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <!--HEADER-->
+    <header class="header">
+
+        <a href="#" class="logo"> <i class=""></i> CAFÉ ROOTS</a>
+
+    
+        <nav class="navbar">
+            <a href="#banner" class="active">Inicio</a>
+            <a href="#productos">Menú</a>
+            <a href="#cafes">Cafes</a>
+            <a href="#mercancia">Mercancía</a>
+            <a href="#reseñas">Reseñas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-shopping-bag" id="bag-btn"></a>
+            <a href="#" class="fas fa-heart" id="fav-btn"></a>
+        </div>
+    
+        <form action="" class="search-form">
+            <input type="search" placeholder="search here..." id="input-box">
+            <label for="input-box" class="fas fa-search"></label>
+        </form>
+    
+        <div class="productos-carro-contenido">
+           
+            <div class="producto-carro">
+                <span class="fas fa-times"></span>
+                <img src="IMAGENES/producto1.png" alt="">
+                <div class="contenido">
+                    <h3>Café de Grano 
+                        <br>Edición Especial</h3>
+                    <div class="precio">$250.00/-</div>
+                </div>
+            </div>
+           
+                      
+            <div class="producto-carro">
+                <span class="fas fa-times"></span>
+                <img src="IMAGENES/merc1.png" alt="">
+                <div class="contenido">
+                    <h3>Termo de León Negro</h3>
+                    <div class="precio">$400.00/-</div> 
+                </div>
+            </div>
+
+                  
+            <div class="producto-carro">
+                <span class="fas fa-times"></span>
+                <img src="IMAGENES/producto7.png" alt="">
+                <div class="contenido">
+                    <h3>Cafe Premium</h3>
+                    <div class="precio">$600.00/-</div> 
+                </div>
+            </div>
+            <a href="#" class="btn" id="">COMPRAR</a>
+        </div>
+
+
+        <div class="fav-cont">
+            <div class="fav">
+                <span class="fas fa-heart"></span>
+                <img src="IMAGENES/merc1.png" alt="">
+                <div class="contenido">
+                    <h3>Termo de León Negro</h3>
+                    <div class="precio">$400.00/-</div>
+                </div>
+            </div>
+           
+                      
+            <div class="fav">
+                <span class="fas fa-heart"></span>
+                <img src="IMAGENES/prouc5.png" alt="">
+                <div class="contenido">
+                    <h3>Brownie de 
+                        <br>Chocolate</h3>
+                    <div class="precio">$100.00/-</div> 
+                </div>
+            </div>
+
+                  
+            <div class="fav">
+                <span class="fas fa-heart"></span>
+                <img src="IMAGENES/merc6.png" alt="">
+                <div class="contenido">
+                    <h3>Bolsa de Tela Reggae</h3>
+                    <div class="precio">$100.00/-</div> 
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+
+<!--BANNER-->
+    <section class="banner" id="banner">
+    </section>
+
+
+<!--MENU-->
+    <section class="productos" id="productos">
+        <h1 class="heading"> <span>M</span>en<span class="verde">ú</span></h1>
+
+        <div class="contenido">
+            <div class="cont">
+                <img src="IMAGENES/produc1.png" alt="">
+                <h3>Croissant </h3>
+                <div class="precio">$30.00<span>$40.00</span></div>
+                <div class="btn">Añadir</div>
+            </div> 
+
+            <div class="cont">
+                <img src="IMAGENES/produc2.png" alt="">
+                <h3>Galletas de Chocolate</h3>
+                <div class="precio">$40.00<span>$50.00</span></div>
+                <div class="btn">Añadir</div>
+            </div>
+
+            <div class="cont">
+                <img src="IMAGENES/produc3.png" alt="">
+                <h3>Capuccino</h3>
+                <div class="precio">$20.00<span>$30.00</span></div>
+                <div class="btn">Añadir</div>
+            </div>
+
+            <div class="cont">
+                <img src="IMAGENES/produc4.png" alt="">
+                <h3>Frapuccino</h3>
+                <div class="precio">$70.00<span>$90</span></div>
+                <div class="btn">Añadir</div>
+            </div>
+
+            <div class="cont">
+                <img src="IMAGENES/prouc5.png" alt="">
+                <h3>Brownie de Chocolate</h3>
+                <div class="precio">$100.00<span>$150.00s</span></div>
+                <div class="btn">Añadir</div>
+            </div>
+
+            <div class="cont">
+                <img src="IMAGENES/produc5.png" alt="">
+                <h3>Freppé de Chocolate</h3>
+                <div class="precio">$64.00<span>$80.00</span></div>
+                <div class="btn">Añadir</div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+<!--CAFES-->
+    <section class="cafes" id="cafes">
+        <h1 class="heading"> <span>Café</span>s de g<span class="verde">rano</span></h1>
+        <div class="contenido">
+            <div class="cont">
+                <div class="iconos">
+                    <a href="" class="fas fa-shopping-bag"></a>
+                    <a href="" class="fas fa-heart"></a>
+                </div>
+                <div class="imagen">
+                    <img src="IMAGENES/producto1.png" alt="">
+                </div>
+                <div class="conte">
+                    <h3>Café de Grano Edición Especial</h3>
+                    <div class="calif">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="precio">$250.00</div>
+                </div>
+            </div>
+
+            <div class="cont">
+                <div class="iconos">
+                    <a href="" class="fas fa-shopping-bag"></a>
+                    <a href="" class="fas fa-heart"></a>
+                </div>
+                <div class="imagen">
+                    <img src="IMAGENES/producto2.png" alt="">
+                </div>
+                <div class="conte">
+                    <h3>Café de Grano de Chiapas</h3>
+                    <div class="calif">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="precio">$300.00</div>
+                </div>
+            </div>
+
+            <div class="cont">
+                <div class="iconos">
+                    <a href="" class="fas fa-shopping-bag"></a>
+                    <a href="" class="fas fa-heart"></a>
+                </div>
+                <div class="imagen">
+                    <img src="IMAGENES/producto4.png" alt="">
+                </div>
+                <div class="conte">
+                    <h3>Café de Grano (FUERTE)</h3>
+                    <div class="precio">$300.00</div>
+                </div>
+            </div>
+
+            <div class="cont">
+                <div class="iconos">
+                    <a href="" class="fas fa-shopping-bag"></a>
+                    <a href="" class="fas fa-heart"></a>
+                </div>
+                <div class="imagen">
+                    <img src="IMAGENES/producto5.png" alt="">
+                </div>
+                <div class="conte">
+                    <h3>Café Soluble</h3>
+                    <div class="precio">$70.00</div>
+                </div>
+            </div>
+
+            <div class="cont">
+                <div class="iconos">
+                    <a href="" class="fas fa-shopping-bag"></a>
+                    <a href="" class="fas fa-heart"></a>
+                </div>
+                <div class="imagen">
+                    <img src="IMAGENES/producto6.png" alt="">
+                </div>
+                <div class="conte">
+                    <h3>Café Soluble Descafeinado</h3>
+                    <div class="precio">$100.00</div>
+                </div>
+            </div>
+
+            <div class="cont">
+                <div class="iconos">
+                    <a href="" class="fas fa-shopping-bag"></a>
+                    <a href="" class="fas fa-heart"></a>
+                </div>
+                <div class="imagen">
+                    <img src="IMAGENES/producto7.png" alt="">
+                </div>
+                <div class="conte">
+                    <h3>Café Premium</h3>
+                    <div class="precio">$600.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+<!--Mercancía-->
+<section class="mercancia" id="mercancia">
+    <h1 class="heading"> <span>Mer</span>can<span class="verde">cía</span></h1>
+    <div class="contenido">
+        <div class="cont">
+            <div class="iconos">
+                <a href="" class="fas fa-shopping-bag"></a>
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="imagen">
+                <img src="IMAGENES/merc1.png" alt="">
+            </div>
+            <div class="conte">
+                <h3>Termo de León Negro</h3>
+                <div class="calif">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="precio">$400.00 <span>$600.00</span></div>
+            </div>
+        </div>
+
+        <div class="cont">
+            <div class="iconos">
+                <a href="" class="fas fa-shopping-bag"></a>
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="imagen">
+                <img src="IMAGENES/merc2.png" alt="">
+            </div>
+            <div class="conte">
+                <h3>Termo de León Blanco</h3>
+                <div class="calif">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="precio">$400.00 <span>$600.00</span></div>
+            </div>
+        </div>
+
+        <div class="cont">
+            <div class="iconos">
+                <a href="" class="fas fa-shopping-bag"></a>
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="imagen">
+                <img src="IMAGENES/merc3.png" alt="">
+            </div>
+            <div class="conte">
+                <h3>Termo de Jah</h3>
+                <div class="calif">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="precio">$500.00 <span>$700.00</span></div>
+            </div>
+        </div>
+
+        <div class="cont">
+            <div class="iconos">
+                <a href="" class="fas fa-shopping-bag"></a>
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="imagen">
+                <img src="IMAGENES/merc5.png" alt="">
+            </div>
+            <div class="conte">
+                <h3>Bolsa de tela de León Stencill</h3>
+                <div class="calif">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="precio">$50.00 <span>$60.00</span></div>
+            </div>
+        </div>
+
+        <div class="cont">
+            <div class="iconos">
+                <a href="" class="fas fa-shopping-bag"></a>
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="imagen">
+                <img src="IMAGENES/merc4.png" alt="">
+            </div>
+            <div class="conte">
+                <h3>Bolsa de Tela One Love</h3>
+                <div class="calif">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="precio">$70.00 <span>$80.00</span></div>
+            </div>
+        </div>
+
+        <div class="cont">
+            <div class="iconos">
+                <a href="" class="fas fa-shopping-bag"></a>
+                <a href="" class="fas fa-heart"></a>
+            </div>
+            <div class="imagen">
+                <img src="IMAGENES/merc6.png" alt="">
+            </div>
+            <div class="conte">
+                <h3>Bolsa de Tela Reggae</h3>
+                <div class="calif">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="precio">$100.00</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--RESEÑAS-->
+    <section class="reseñas" id="reseñas">
+        <h1 class="heading"> <span>Re</span>señ<span class="verde">as</span></h1>
+        <div class="contenido">
+            <div class="cont">
+                <img src="IMAGENES/comillas.png" alt="" class="comillas"quote>
+                <p>El aroma del café recién tostado impregna el aire, invitándote a explorar su amplia selección de granos de origen único y mezclas artesanales.
+                     El personal es excepcionalmente amable y conocedor; siempre están dispuestos a recomendar una nueva variedad o ajustar la preparación según tus 
+                     preferencias.</p>
+                <img src="IMAGENES/user1.png" class="usuario" alt="">
+                <h3>CARLOS SKA</h3>
+                <div class="calif">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+    
+            <div class="cont">
+                <img src="IMAGENES/comillas.png" alt="" class="comillas"quote>
+                <p>El ambiente aquí es acogedor y relajante, perfecto para disfrutar de un momento tranquilo
+                     solo o en compañía. La música de fondo es suave y complementa la atmósfera sin ser abrumadora.</p>
+                <img src="IMAGENES/user2.png" class="usuario" alt="">
+                <h3>EL TIO PELUCAS</h3>
+                <div class="calif">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="cont">
+                <img src="IMAGENES/comillas.png" alt="" class="comillas"quote>
+                <p>Los brownies de chocolate son verdaderamente excepcionales. Con una textura perfectamente esponjosa y un sabor profundo a chocolate,
+                     cada bocado es una experiencia indulgente. Me encanta cómo se derriten en la boca, dejando un regusto dulce que te hace desear otro.</p>
+                <img src="IMAGENES/user3.jpeg" class="usuario" alt="">
+                <h3>TRENT</h3>
+                <div class="calif">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+ 
+        </div>
+    </section>
+
+
+
+    <!--CONTACTO-->
+    <section class="contacto" id="contacto">
+        <h1 class="heading"> <span>Co</span>nta<span class="verde">cto</span></h1>
+    
+            <div class="row">
+                
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10644.142735138454!2d-99.0994836963555!3d19.400617662595604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc2e3efc321b%3A0xabf8454acb3a3a99!2sUPIICSA%20%E2%80%93%20Unidad%20Profesional%20Interdisciplinaria%20de%20Ingenier%C3%ADa%20y%20Ciencias%20Sociales%20y%20Administrativas%20IPN!5e0!3m2!1ses-419!2smx!4v1718811762367!5m2!1ses-419!2smx" 
+             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             <form  action="https://formspree.io/f/mrbzzgqv" method="post">
+                <h3 data-aos="zoom-in">Contactanos!!!</h3>
+                <input data-aos="zoom-in" type="text" name="name" placeholder="Nombre" class="box">
+                <input data-aos="zoom-in" type="email" name="mail" placeholder="Email" class="box">
+                <input data-aos="zoom-in" type="number" name="phone" placeholder="Número" class="box">
+                <textarea data-aos="zoom-in" name="message" placeholder="Mensaje" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar Mensaje" class="btn">
+            </form>
+    
+     
+        </div>
+    </section>
+
+
+<section class="footer">
+    <div class="credit">By <span>CAFÉ ROOTS</span> | Todos los Derechos Reservados</div>
+</section>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
